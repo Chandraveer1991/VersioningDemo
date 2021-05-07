@@ -81,7 +81,7 @@
     <distributionManagement>
         <repository>
             <id>deploy-shared-005-release</id>
-            <url>http://localhost:8081/repository/deploy-shared-005-release/</url>
+            <url>http://localhost:8081/service/rest/repository/browse/deploy-shared-005-release</url>
         </repository>
     </distributionManagement>
 </project>
