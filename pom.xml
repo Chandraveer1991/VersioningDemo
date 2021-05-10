@@ -6,9 +6,6 @@
     <artifactId>VersioningDemo</artifactId>
     <version>0.29-SNAPSHOT</version>
 
-    <properties>
-        <project.scm.id>my-scm-server</project.scm.id>
-    </properties>
 
     <scm>
         <connection>scm:git:https://github.com/Chandraveer1991/VersioningDemo.git</connection>
