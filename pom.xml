@@ -58,7 +58,7 @@
                 <version>2.5.3</version>
                 <configuration>
                     <goals>pre-integration-test</goals>
-                    <preparationGoals>package</preparationGoals>
+                    <preparationGoals>validate</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
                     <tagNameFormat>demo-@{project.version}</tagNameFormat>
                     <remoteTagging>false</remoteTagging>
