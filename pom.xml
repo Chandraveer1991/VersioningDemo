@@ -53,9 +53,11 @@
                 </executions>
             </plugin>
             <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
+		<version>2.5.3</version>
                 <configuration>
-                    <preparationGoals>validate</preparationGoals>
+                    <preparationGoals>package</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
                     <tagNameFormat>demo-@{project.version}</tagNameFormat>
                     <remoteTagging>false</remoteTagging>
