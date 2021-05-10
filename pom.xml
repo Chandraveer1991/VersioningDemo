@@ -55,7 +55,6 @@
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
-                    <goals>pre-integration-test</goals>
                     <preparationGoals>validate</preparationGoals>
                     <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
                     <tagNameFormat>demo-@{project.version}</tagNameFormat>
