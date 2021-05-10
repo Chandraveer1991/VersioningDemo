@@ -82,5 +82,9 @@
             <id>deploy-shared-005-release</id>
             <url>http://localhost:8081/repository/deploy-shared-005-release/</url>
         </repository>
+        <snapshotRepository>
+            <id>deploy-shared-005-snapshot</id>
+            <url>http://localhost:8081/repository/deploy-shared-005-snapshot/</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
